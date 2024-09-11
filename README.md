@@ -2,7 +2,31 @@
 
 Thank you to all my coworkers at the Sherman Centre for making my summer co-op term a wonderful experience! None of what I did would have happened if it weren't for them. Please check them out at [scds.ca](https://scds.ca) and check out some of the fabulous resources they have made available to all.
 
-## Website Theme and Module Template
+## Summer 2024
+
+### Projects
+
+- Updated our analytics board that reports the website and video usage by users using the Echo360 API, the Google Analytics platform, and LookerStudio.
+  - Created a program that would query the Echo360 API, filter out videos created by the centre, and collect/aggregate relevant statistics and data for over 200 workshop videos automatically using Python and GitHub Actions.
+- Started to co-design and develop a README generator tool that would help researchers create READMEs for their datasets with ease. Prototyped in HTML/CSS/JS, to be moved to Drupal over the Fall.
+
+### Website Content
+
+- Helped move our public GitHub Pages content over to a custom domain (learn.scds.ca).
+- Published interactive digital zines created by students from our [CMST&MM 720 Data Cultures graduate course](https://learn.scds.ca/events23-24/zines.html). Some examples include:
+  - [Validating or Violating: An Introspective Look on How Health Information is Shared Online](https://learn.scds.ca/events23-24/zines/validating-or-violating.html) by Elsie Sheppard
+  - [All AI Is Local: Rejecting the Permicious Myth of Universalism in AI Discourse](https://learn.scds.ca/events23-24/zines/all-ai-is-local.html) by Elisabeth Greve
+
+### Logistics
+
+- Maintained, updated, and archived old repositories, websites, and videos.
+- Created and updated technical documentation about the systems and processes in the centre.
+- Revamped the centre's workshop creation process (from planning all the way to release) to minimize redundancy and maximize efficiency.
+
+
+## Summer 2023
+
+### Website Theme and Module Template
 
 Using the [Just the Docs](https://github.com/just-the-docs/just-the-docs) template as a base, I customized the website theme to match the Sherman Centre's and McMaster's branding, as well as adding a few features on top of the theme to increase productivity and usability. Some of these features include:
 - An automatically generated "Previous Page" and "Next Page" button system, based on a page's navigation order, as well as its parent/children properties.
@@ -18,7 +42,7 @@ All this is internally documented by myself so that future coworkers and employe
 
 Alongside the theme, I also designed a template for which our asynchronous learning modules should follow, based on coworker and student feedback. This template is designed to be easy to use for just about anyone and comes with a tutorial on setting up the GitHub Pages for the module, as well as a "kitchen sink" of common markdown and HTML elements.
 
-## Asynchronous Learning Modules
+### Asynchronous Learning Modules
 
 As a Learning Resource Development Assistant, I've also developed some asynchronous learning modules based on workshop content that the Sherman Centre has run in the past. Module content topics varies from introductory data analysis, digital scholarship, and even research data management. 
 
@@ -36,7 +60,7 @@ Modules I assisted in regarding formatting:
 - [Named Entity Recognition](https://scds.github.io/text-analysis-2/) (content by Devon Mordell)
 - [Exploring Themes with Topic Modeling](https://scds.github.io/text-analysis-3/) (content by Devon Mordell)
 
-## Other Projects
+### Other Projects
 
 As part of a task to shift some videos from one platform to another, I created a Python script that converts SRT subtitle files to VTT subtitle files. Later I edited this script to also allow for shifting of time stamp, to fix some video subtitle files that were off by +- 3 seconds.
 
